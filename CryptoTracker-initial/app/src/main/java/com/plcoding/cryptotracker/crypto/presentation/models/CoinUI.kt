@@ -1,5 +1,7 @@
 package com.plcoding.cryptotracker.crypto.presentation.models
 
+import androidx.annotation.DrawableRes
+
 data class CoinUI(
     val id: String,
     val rank: Int,
@@ -7,7 +9,8 @@ data class CoinUI(
     val symbol: String,
     val marketCapUsd: DisplayableNumber,
     val priceUsd: DisplayableNumber,
-    val changePercent24Hr: DisplayableNumber
+    val changePercent24Hr: DisplayableNumber,
+    @DrawableRes val iconRes: Int
 )
 
 data class DisplayableNumber(
