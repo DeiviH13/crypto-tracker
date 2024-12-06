@@ -5,7 +5,6 @@ import com.plcoding.cryptotracker.crypto.domain.Coin
 import com.plcoding.cryptotracker.util.getDrawableIdForCoin
 import java.text.NumberFormat
 import java.util.Locale
-import kotlin.math.absoluteValue
 
 data class CoinUI(
     val id: String,
